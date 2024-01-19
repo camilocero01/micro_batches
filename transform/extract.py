@@ -100,7 +100,7 @@ for x in os.listdir(file_src):
     file.write(f'Lineas tenidas en cuenta para el cálculo del archivo{file_name}= {line_count-1} lines.\n')
     file.write(f'********** datos adicionando el archivo {file_name}: conteo de registros {global_count} sumatoria precio {global_sum_price} precio máximo {global_max} precio mínimo {global_min} media {global_sum_price / global_count}\n\n\n\n')
 
-file.write(f'Total registros cargados en BD={str(len(os.listdir(file_src)))} \n nombre de los archivos= {os.listdir(file_src)}\n\n\n')
+file.write(f'Total archivos cargados en BD={str(len(os.listdir(file_src)))} \n nombre de los archivos= {os.listdir(file_src)}\n\n\n')
 
 
 #con fines de comparación, se hacen dos consultas a la base de datos final con el fin de dejar evidencia en el LOG
