@@ -1,0 +1,185 @@
+Archivo a cargar ->2012-1.csv
+conteo de registros 1 sumatoria precio 50 precio máximo 50 precio mínimo 50 media 50.0
+conteo de registros 2 sumatoria precio 137 precio máximo 87 precio mínimo 50 media 68.5
+conteo de registros 3 sumatoria precio 201 precio máximo 87 precio mínimo 50 media 67.0
+conteo de registros 4 sumatoria precio 221 precio máximo 87 precio mínimo 20 media 55.25
+conteo de registros 5 sumatoria precio 235 precio máximo 87 precio mínimo 14 media 47.0
+conteo de registros 6 sumatoria precio 330 precio máximo 95 precio mínimo 14 media 55.0
+conteo de registros 7 sumatoria precio 425 precio máximo 95 precio mínimo 14 media 60.714285714285715
+conteo de registros 8 sumatoria precio 487 precio máximo 95 precio mínimo 14 media 60.875
+conteo de registros 9 sumatoria precio 533 precio máximo 95 precio mínimo 14 media 59.22222222222222
+conteo de registros 10 sumatoria precio 630 precio máximo 97 precio mínimo 14 media 63.0
+conteo de registros 11 sumatoria precio 661 precio máximo 97 precio mínimo 14 media 60.09090909090909
+conteo de registros 12 sumatoria precio 698 precio máximo 97 precio mínimo 14 media 58.166666666666664
+conteo de registros 13 sumatoria precio 772 precio máximo 97 precio mínimo 14 media 59.38461538461539
+conteo de registros 14 sumatoria precio 817 precio máximo 97 precio mínimo 14 media 58.357142857142854
+conteo de registros 15 sumatoria precio 844 precio máximo 97 precio mínimo 14 media 56.266666666666666
+conteo de registros 16 sumatoria precio 922 precio máximo 97 precio mínimo 14 media 57.625
+conteo de registros 17 sumatoria precio 964 precio máximo 97 precio mínimo 14 media 56.705882352941174
+conteo de registros 18 sumatoria precio 1009 precio máximo 97 precio mínimo 14 media 56.05555555555556
+conteo de registros 19 sumatoria precio 1105 precio máximo 97 precio mínimo 14 media 58.1578947368421
+conteo de registros 20 sumatoria precio 1193 precio máximo 97 precio mínimo 14 media 59.65
+Lineas insertadas para el archivo2012-1.csv= 22 lines.
+********** datos con el archivo 2012-1.csv: conteo de registros 20 sumatoria precio 1193 precio máximo 97 precio mínimo 14 media 59.65
+
+
+
+Archivo a cargar ->2012-2.csv
+conteo de registros 1 sumatoria precio 76 precio máximo 76 precio mínimo 76 media 76.0
+conteo de registros 2 sumatoria precio 142 precio máximo 76 precio mínimo 66 media 71.0
+conteo de registros 3 sumatoria precio 189 precio máximo 76 precio mínimo 47 media 63.0
+conteo de registros 4 sumatoria precio 289 precio máximo 100 precio mínimo 47 media 72.25
+conteo de registros 5 sumatoria precio 308 precio máximo 100 precio mínimo 19 media 61.6
+conteo de registros 6 sumatoria precio 367 precio máximo 100 precio mínimo 19 media 61.166666666666664
+conteo de registros 7 sumatoria precio 444 precio máximo 100 precio mínimo 19 media 63.42857142857143
+conteo de registros 8 sumatoria precio 544 precio máximo 100 precio mínimo 19 media 68.0
+conteo de registros 9 sumatoria precio 599 precio máximo 100 precio mínimo 19 media 66.55555555555556
+conteo de registros 10 sumatoria precio 618 precio máximo 100 precio mínimo 19 media 61.8
+conteo de registros 11 sumatoria precio 713 precio máximo 100 precio mínimo 19 media 64.81818181818181
+conteo de registros 12 sumatoria precio 786 precio máximo 100 precio mínimo 19 media 65.5
+conteo de registros 13 sumatoria precio 818 precio máximo 100 precio mínimo 19 media 62.92307692307692
+conteo de registros 14 sumatoria precio 913 precio máximo 100 precio mínimo 19 media 65.21428571428571
+conteo de registros 15 sumatoria precio 925 precio máximo 100 precio mínimo 12 media 61.666666666666664
+conteo de registros 16 sumatoria precio 962 precio máximo 100 precio mínimo 12 media 60.125
+conteo de registros 17 sumatoria precio 990 precio máximo 100 precio mínimo 12 media 58.23529411764706
+conteo de registros 18 sumatoria precio 1000 precio máximo 100 precio mínimo 10 media 55.55555555555556
+conteo de registros 19 sumatoria precio 1027 precio máximo 100 precio mínimo 10 media 54.05263157894737
+conteo de registros 20 sumatoria precio 1041 precio máximo 100 precio mínimo 10 media 52.05
+conteo de registros 21 sumatoria precio 1128 precio máximo 100 precio mínimo 10 media 53.714285714285715
+conteo de registros 22 sumatoria precio 1203 precio máximo 100 precio mínimo 10 media 54.68181818181818
+conteo de registros 23 sumatoria precio 1239 precio máximo 100 precio mínimo 10 media 53.869565217391305
+conteo de registros 24 sumatoria precio 1323 precio máximo 100 precio mínimo 10 media 55.125
+conteo de registros 25 sumatoria precio 1385 precio máximo 100 precio mínimo 10 media 55.4
+conteo de registros 26 sumatoria precio 1441 precio máximo 100 precio mínimo 10 media 55.42307692307692
+conteo de registros 27 sumatoria precio 1458 precio máximo 100 precio mínimo 10 media 54.0
+conteo de registros 28 sumatoria precio 1522 precio máximo 100 precio mínimo 10 media 54.357142857142854
+conteo de registros 29 sumatoria precio 1590 precio máximo 100 precio mínimo 10 media 54.827586206896555
+Lineas insertadas para el archivo2012-2.csv= 29 lines.
+********** datos con el archivo 2012-2.csv: conteo de registros 49 sumatoria precio 2783 precio máximo 100 precio mínimo 10 media 56.795918367346935
+
+
+
+Archivo a cargar ->2012-3.csv
+conteo de registros 1 sumatoria precio 75 precio máximo 75 precio mínimo 75 media 75.0
+conteo de registros 2 sumatoria precio 87 precio máximo 75 precio mínimo 12 media 43.5
+conteo de registros 3 sumatoria precio 158 precio máximo 75 precio mínimo 12 media 52.666666666666664
+conteo de registros 4 sumatoria precio 231 precio máximo 75 precio mínimo 12 media 57.75
+conteo de registros 5 sumatoria precio 252 precio máximo 75 precio mínimo 12 media 50.4
+conteo de registros 6 sumatoria precio 279 precio máximo 75 precio mínimo 12 media 46.5
+conteo de registros 7 sumatoria precio 360 precio máximo 81 precio mínimo 12 media 51.42857142857143
+conteo de registros 8 sumatoria precio 459 precio máximo 99 precio mínimo 12 media 57.375
+conteo de registros 9 sumatoria precio 528 precio máximo 99 precio mínimo 12 media 58.666666666666664
+conteo de registros 10 sumatoria precio 547 precio máximo 99 precio mínimo 12 media 54.7
+conteo de registros 11 sumatoria precio 579 precio máximo 99 precio mínimo 12 media 52.63636363636363
+conteo de registros 12 sumatoria precio 674 precio máximo 99 precio mínimo 12 media 56.166666666666664
+conteo de registros 13 sumatoria precio 745 precio máximo 99 precio mínimo 12 media 57.30769230769231
+conteo de registros 14 sumatoria precio 808 precio máximo 99 precio mínimo 12 media 57.714285714285715
+conteo de registros 15 sumatoria precio 861 precio máximo 99 precio mínimo 12 media 57.4
+conteo de registros 16 sumatoria precio 948 precio máximo 99 precio mínimo 12 media 59.25
+conteo de registros 17 sumatoria precio 1037 precio máximo 99 precio mínimo 12 media 61.0
+conteo de registros 18 sumatoria precio 1050 precio máximo 99 precio mínimo 12 media 58.333333333333336
+conteo de registros 19 sumatoria precio 1124 precio máximo 99 precio mínimo 12 media 59.1578947368421
+conteo de registros 20 sumatoria precio 1208 precio máximo 99 precio mínimo 12 media 60.4
+conteo de registros 21 sumatoria precio 1226 precio máximo 99 precio mínimo 12 media 58.38095238095238
+conteo de registros 22 sumatoria precio 1258 precio máximo 99 precio mínimo 12 media 57.18181818181818
+conteo de registros 23 sumatoria precio 1354 precio máximo 99 precio mínimo 12 media 58.869565217391305
+conteo de registros 24 sumatoria precio 1408 precio máximo 99 precio mínimo 12 media 58.666666666666664
+conteo de registros 25 sumatoria precio 1490 precio máximo 99 precio mínimo 12 media 59.6
+conteo de registros 26 sumatoria precio 1564 precio máximo 99 precio mínimo 12 media 60.15384615384615
+conteo de registros 27 sumatoria precio 1623 precio máximo 99 precio mínimo 12 media 60.111111111111114
+conteo de registros 28 sumatoria precio 1656 precio máximo 99 precio mínimo 12 media 59.142857142857146
+conteo de registros 29 sumatoria precio 1702 precio máximo 99 precio mínimo 12 media 58.689655172413794
+conteo de registros 30 sumatoria precio 1785 precio máximo 99 precio mínimo 12 media 59.5
+conteo de registros 31 sumatoria precio 1850 precio máximo 99 precio mínimo 12 media 59.67741935483871
+Lineas insertadas para el archivo2012-3.csv= 31 lines.
+********** datos con el archivo 2012-3.csv: conteo de registros 80 sumatoria precio 4633 precio máximo 100 precio mínimo 10 media 57.9125
+
+
+
+Archivo a cargar ->2012-4.csv
+conteo de registros 1 sumatoria precio 87 precio máximo 87 precio mínimo 87 media 87.0
+conteo de registros 2 sumatoria precio 130 precio máximo 87 precio mínimo 43 media 65.0
+conteo de registros 3 sumatoria precio 153 precio máximo 87 precio mínimo 23 media 51.0
+conteo de registros 4 sumatoria precio 244 precio máximo 91 precio mínimo 23 media 61.0
+conteo de registros 5 sumatoria precio 325 precio máximo 91 precio mínimo 23 media 65.0
+conteo de registros 6 sumatoria precio 393 precio máximo 91 precio mínimo 23 media 65.5
+conteo de registros 7 sumatoria precio 454 precio máximo 91 precio mínimo 23 media 64.85714285714286
+conteo de registros 8 sumatoria precio 467 precio máximo 91 precio mínimo 13 media 58.375
+conteo de registros 9 sumatoria precio 479 precio máximo 91 precio mínimo 12 media 53.22222222222222
+conteo de registros 10 sumatoria precio 540 precio máximo 91 precio mínimo 12 media 54.0
+conteo de registros 11 sumatoria precio 603 precio máximo 91 precio mínimo 12 media 54.81818181818182
+conteo de registros 12 sumatoria precio 691 precio máximo 91 precio mínimo 12 media 57.583333333333336
+conteo de registros 13 sumatoria precio 754 precio máximo 91 precio mínimo 12 media 58.0
+conteo de registros 14 sumatoria precio 804 precio máximo 91 precio mínimo 12 media 57.42857142857143
+conteo de registros 15 sumatoria precio 901 precio máximo 97 precio mínimo 12 media 60.06666666666667
+conteo de registros 16 sumatoria precio 991 precio máximo 97 precio mínimo 12 media 61.9375
+conteo de registros 17 sumatoria precio 1070 precio máximo 97 precio mínimo 12 media 62.94117647058823
+conteo de registros 18 sumatoria precio 1080 precio máximo 97 precio mínimo 10 media 60.0
+conteo de registros 19 sumatoria precio 1101 precio máximo 97 precio mínimo 10 media 57.94736842105263
+conteo de registros 20 sumatoria precio 1169 precio máximo 97 precio mínimo 10 media 58.45
+conteo de registros 21 sumatoria precio 1246 precio máximo 97 precio mínimo 10 media 59.333333333333336
+conteo de registros 22 sumatoria precio 1265 precio máximo 97 precio mínimo 10 media 57.5
+conteo de registros 23 sumatoria precio 1347 precio máximo 97 precio mínimo 10 media 58.56521739130435
+conteo de registros 24 sumatoria precio 1390 precio máximo 97 precio mínimo 10 media 57.916666666666664
+conteo de registros 25 sumatoria precio 1445 precio máximo 97 precio mínimo 10 media 57.8
+conteo de registros 26 sumatoria precio 1498 precio máximo 97 precio mínimo 10 media 57.61538461538461
+conteo de registros 27 sumatoria precio 1531 precio máximo 97 precio mínimo 10 media 56.7037037037037
+conteo de registros 28 sumatoria precio 1607 precio máximo 97 precio mínimo 10 media 57.392857142857146
+Lineas insertadas para el archivo2012-4.csv= 30 lines.
+********** datos con el archivo 2012-4.csv: conteo de registros 108 sumatoria precio 6240 precio máximo 100 precio mínimo 10 media 57.77777777777778
+
+
+
+Archivo a cargar ->2012-5.csv
+conteo de registros 1 sumatoria precio 82 precio máximo 82 precio mínimo 82 media 82.0
+conteo de registros 2 sumatoria precio 143 precio máximo 82 precio mínimo 61 media 71.5
+conteo de registros 3 sumatoria precio 162 precio máximo 82 precio mínimo 19 media 54.0
+conteo de registros 4 sumatoria precio 256 precio máximo 94 precio mínimo 19 media 64.0
+conteo de registros 5 sumatoria precio 273 precio máximo 94 precio mínimo 17 media 54.6
+conteo de registros 6 sumatoria precio 292 precio máximo 94 precio mínimo 17 media 48.666666666666664
+conteo de registros 7 sumatoria precio 358 precio máximo 94 precio mínimo 17 media 51.142857142857146
+conteo de registros 8 sumatoria precio 371 precio máximo 94 precio mínimo 13 media 46.375
+conteo de registros 9 sumatoria precio 402 precio máximo 94 precio mínimo 13 media 44.666666666666664
+conteo de registros 10 sumatoria precio 497 precio máximo 95 precio mínimo 13 media 49.7
+conteo de registros 11 sumatoria precio 574 precio máximo 95 precio mínimo 13 media 52.18181818181818
+conteo de registros 12 sumatoria precio 590 precio máximo 95 precio mínimo 13 media 49.166666666666664
+conteo de registros 13 sumatoria precio 612 precio máximo 95 precio mínimo 13 media 47.07692307692308
+conteo de registros 14 sumatoria precio 703 precio máximo 95 precio mínimo 13 media 50.214285714285715
+conteo de registros 15 sumatoria precio 747 precio máximo 95 precio mínimo 13 media 49.8
+conteo de registros 16 sumatoria precio 831 precio máximo 95 precio mínimo 13 media 51.9375
+conteo de registros 17 sumatoria precio 895 precio máximo 95 precio mínimo 13 media 52.64705882352941
+conteo de registros 18 sumatoria precio 978 precio máximo 95 precio mínimo 13 media 54.333333333333336
+conteo de registros 19 sumatoria precio 1008 precio máximo 95 precio mínimo 13 media 53.05263157894737
+conteo de registros 20 sumatoria precio 1070 precio máximo 95 precio mínimo 13 media 53.5
+conteo de registros 21 sumatoria precio 1159 precio máximo 95 precio mínimo 13 media 55.19047619047619
+conteo de registros 22 sumatoria precio 1247 precio máximo 95 precio mínimo 13 media 56.68181818181818
+conteo de registros 23 sumatoria precio 1281 precio máximo 95 precio mínimo 13 media 55.69565217391305
+conteo de registros 24 sumatoria precio 1381 precio máximo 100 precio mínimo 13 media 57.541666666666664
+conteo de registros 25 sumatoria precio 1458 precio máximo 100 precio mínimo 13 media 58.32
+conteo de registros 26 sumatoria precio 1549 precio máximo 100 precio mínimo 13 media 59.57692307692308
+conteo de registros 27 sumatoria precio 1610 precio máximo 100 precio mínimo 13 media 59.629629629629626
+conteo de registros 28 sumatoria precio 1677 precio máximo 100 precio mínimo 13 media 59.892857142857146
+conteo de registros 29 sumatoria precio 1716 precio máximo 100 precio mínimo 13 media 59.172413793103445
+conteo de registros 30 sumatoria precio 1773 precio máximo 100 precio mínimo 13 media 59.1
+conteo de registros 31 sumatoria precio 1806 precio máximo 100 precio mínimo 13 media 58.25806451612903
+Lineas insertadas para el archivo2012-5.csv= 31 lines.
+********** datos con el archivo 2012-5.csv: conteo de registros 139 sumatoria precio 8046 precio máximo 100 precio mínimo 10 media 57.884892086330936
+
+
+
+Archivo a cargar ->validation.csv
+conteo de registros 1 sumatoria precio 26 precio máximo 26 precio mínimo 26 media 26.0
+conteo de registros 2 sumatoria precio 37 precio máximo 26 precio mínimo 11 media 18.5
+conteo de registros 3 sumatoria precio 50 precio máximo 26 precio mínimo 11 media 16.666666666666668
+conteo de registros 4 sumatoria precio 142 precio máximo 92 precio mínimo 11 media 35.5
+conteo de registros 5 sumatoria precio 173 precio máximo 92 precio mínimo 11 media 34.6
+conteo de registros 6 sumatoria precio 235 precio máximo 92 precio mínimo 11 media 39.166666666666664
+conteo de registros 7 sumatoria precio 248 precio máximo 92 precio mínimo 11 media 35.42857142857143
+conteo de registros 8 sumatoria precio 334 precio máximo 92 precio mínimo 11 media 41.75
+Lineas insertadas para el archivovalidation.csv= 8 lines.
+********** datos con el archivo validation.csv: conteo de registros 147 sumatoria precio 8380 precio máximo 100 precio mínimo 10 media 57.006802721088434
+
+
+
+Total registros cargados=6 
+ nombre de los archivos= ['2012-1.csv', '2012-2.csv', '2012-3.csv', '2012-4.csv', '2012-5.csv', 'validation.csv']
