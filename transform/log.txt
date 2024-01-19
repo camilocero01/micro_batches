@@ -1,4 +1,4 @@
-Archivo a cargar ->2012-1.csv
+Archivo Nuevo a cargar ->2012-1.csv
 conteo de registros 1 sumatoria precio 50 precio máximo 50 precio mínimo 50 media 50.0
 conteo de registros 2 sumatoria precio 137 precio máximo 87 precio mínimo 50 media 68.5
 conteo de registros 3 sumatoria precio 201 precio máximo 87 precio mínimo 50 media 67.0
@@ -24,7 +24,7 @@ Lineas tenidas en cuenta para el cálculo del archivo2012-1.csv= 22 lines.
 
 
 
-Archivo a cargar ->2012-2.csv
+Archivo Nuevo a cargar ->2012-2.csv
 conteo de registros 1 sumatoria precio 76 precio máximo 76 precio mínimo 76 media 76.0
 conteo de registros 2 sumatoria precio 142 precio máximo 76 precio mínimo 66 media 71.0
 conteo de registros 3 sumatoria precio 189 precio máximo 76 precio mínimo 47 media 63.0
@@ -59,7 +59,7 @@ Lineas tenidas en cuenta para el cálculo del archivo2012-2.csv= 29 lines.
 
 
 
-Archivo a cargar ->2012-3.csv
+Archivo Nuevo a cargar ->2012-3.csv
 conteo de registros 1 sumatoria precio 75 precio máximo 75 precio mínimo 75 media 75.0
 conteo de registros 2 sumatoria precio 87 precio máximo 75 precio mínimo 12 media 43.5
 conteo de registros 3 sumatoria precio 158 precio máximo 75 precio mínimo 12 media 52.666666666666664
@@ -96,7 +96,7 @@ Lineas tenidas en cuenta para el cálculo del archivo2012-3.csv= 31 lines.
 
 
 
-Archivo a cargar ->2012-4.csv
+Archivo Nuevo a cargar ->2012-4.csv
 conteo de registros 1 sumatoria precio 87 precio máximo 87 precio mínimo 87 media 87.0
 conteo de registros 2 sumatoria precio 130 precio máximo 87 precio mínimo 43 media 65.0
 conteo de registros 3 sumatoria precio 153 precio máximo 87 precio mínimo 23 media 51.0
@@ -130,7 +130,7 @@ Lineas tenidas en cuenta para el cálculo del archivo2012-4.csv= 30 lines.
 
 
 
-Archivo a cargar ->2012-5.csv
+Archivo Nuevo a cargar ->2012-5.csv
 conteo de registros 1 sumatoria precio 82 precio máximo 82 precio mínimo 82 media 82.0
 conteo de registros 2 sumatoria precio 143 precio máximo 82 precio mínimo 61 media 71.5
 conteo de registros 3 sumatoria precio 162 precio máximo 82 precio mínimo 19 media 54.0
@@ -167,7 +167,7 @@ Lineas tenidas en cuenta para el cálculo del archivo2012-5.csv= 31 lines.
 
 
 
-Archivo a cargar ->validation.csv
+Archivo Nuevo a cargar ->validation.csv
 conteo de registros 1 sumatoria precio 26 precio máximo 26 precio mínimo 26 media 26.0
 conteo de registros 2 sumatoria precio 37 precio máximo 26 precio mínimo 11 media 18.5
 conteo de registros 3 sumatoria precio 50 precio máximo 26 precio mínimo 11 media 16.666666666666668

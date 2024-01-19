@@ -43,71 +43,92 @@ file_src = "C:\\Users\\Asus\\PycharmProjects\\micro_batches\\extract_files\\data
 #leo todos los archivos encontrados en la ruta file_src
 for x in os.listdir(file_src):
 
-    #extraigo el nombre del archivo
+    # extraigo el nombre del archivo
     file_name = os.path.basename(x)
 
-    #usamos file.write para guardar en el log
-    file.write("Archivo a cargar ->"+file_name+"\n")
+    # abrimos una conexión para las consultas
+    # el objetivo es validar si el archivo ya se cargo previamente en la base de datos
+    # si existe, solo dejo el log donde indico que no se proceso, si no existe, entonces lo proceso y lo inserto a la BD
+    file_exist = 0
+    conn = sqlite3.connect('output.db')
+    c = conn.cursor()
+    c.execute(
+        "select   min(1) from final_table where source_file_name = '"+file_name+"'")
+    rows = c.fetchall()
+    for row in rows:
+        file_exist = row[0]
+    conn.commit()
+    conn.close()
 
-    #inicializamos las variables de calulo individual por cada archivo
-    local_count = 0
-    local_sum_price = 0
-    local_max = 0
-    local_min = 0
+    #si el nombre del archivo existe, entonces no se carga
+    if file_exist != 1:
 
-    #cargo a una lista las filas y  campos del archivo recorrido
-    with open(file_src + "\\" + file_name) as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=',')
+        #usamos file.write para guardar en el log
+        file.write("Archivo Nuevo a cargar ->"+file_name+"\n")
 
-        #recorro cada registro y lo guardo en la base de datos
-        line_count = 0
-        val = []
+        #inicializamos las variables de calulo individual por cada archivo
+        local_count = 0
+        local_sum_price = 0
+        local_max = 0
+        local_min = 0
 
-        #ciclo for para leer cada campo de cada registro
-        for row in csv_reader:
+        #cargo a una lista las filas y  campos del archivo recorrido
+        with open(file_src + "\\" + file_name) as csv_file:
+            csv_reader = csv.reader(csv_file, delimiter=',')
 
-            #llevo los datos a un array
-            val.append((row[0], row[1], row[2], datetime.date.today()))
+            #recorro cada registro y lo guardo en la base de datos
+            line_count = 0
+            val = []
 
-            # quito primera linea con nombre de campos
-            if line_count >= 1:
+            #ciclo for para leer cada campo de cada registro
+            for row in csv_reader:
 
-                #inserto el registro
-                sql = "INSERT INTO final_table VALUES (?, ?, ?, DateTime('now'),'"+file_name+"')"
-                insert_data(sql,row)
+                #llevo los datos a un array
+                val.append((row[0], row[1], row[2], datetime.date.today()))
 
-                #actualizo variables globales y locales
-                #se parte de la siguiente premisa, para los calculos no se tienen en cuenta registros sin precio
-                if row[1] != '':
+                # quito primera linea con nombre de campos
+                if line_count >= 1:
 
-                    global_count += 1
-                    global_sum_price = global_sum_price + int(row[1])
-                    # global_count == 1 para inicializar la variable con el primer registro
-                    if int(row[1]) > global_max or global_count == 1:  global_max = int(row[1])
-                    if int(row[1]) < global_min or global_count == 1:  global_min = int(row[1])
+                    #inserto el registro
+                    sql = "INSERT INTO final_table VALUES (?, ?, ?, DateTime('now'),'"+file_name+"')"
+                    insert_data(sql,row)
 
-                    local_count += 1
-                    local_sum_price = local_sum_price + int(row[1])
-                    # global_count == 1 para inicializar la variable con el primer registro
-                    if int(row[1]) > local_max or local_count == 1:  local_max = int(row[1])
-                    if int(row[1]) < local_min or local_count == 1:  local_min = int(row[1])
+                    #actualizo variables globales y locales
+                    #se parte de la siguiente premisa, para los calculos no se tienen en cuenta registros sin precio
+                    if row[1] != '':
 
-                    #guardo el log para el calculo de cada registro
-                    file.write(f'conteo de registros {local_count} sumatoria precio {local_sum_price} precio máximo {local_max} precio mínimo {local_min} media {local_sum_price / local_count}\n')
+                        global_count += 1
+                        global_sum_price = global_sum_price + int(row[1])
+                        # global_count == 1 para inicializar la variable con el primer registro
+                        if int(row[1]) > global_max or global_count == 1:  global_max = int(row[1])
+                        if int(row[1]) < global_min or global_count == 1:  global_min = int(row[1])
 
-            line_count += 1
+                        local_count += 1
+                        local_sum_price = local_sum_price + int(row[1])
+                        # global_count == 1 para inicializar la variable con el primer registro
+                        if int(row[1]) > local_max or local_count == 1:  local_max = int(row[1])
+                        if int(row[1]) < local_min or local_count == 1:  local_min = int(row[1])
 
-    file.write(f'Lineas tenidas en cuenta para el cálculo del archivo{file_name}= {line_count-1} lines.\n')
-    file.write(f'********** datos adicionando el archivo {file_name}: conteo de registros {global_count} sumatoria precio {global_sum_price} precio máximo {global_max} precio mínimo {global_min} media {global_sum_price / global_count}\n\n\n\n')
+                        #guardo el log para el calculo de cada registro
+                        file.write(f'conteo de registros {local_count} sumatoria precio {local_sum_price} precio máximo {local_max} precio mínimo {local_min} media {local_sum_price / local_count}\n')
+
+                line_count += 1
+
+        file.write(f'Lineas tenidas en cuenta para el cálculo del archivo{file_name}= {line_count-1} lines.\n')
+        file.write(f'********** datos adicionando el archivo {file_name}: conteo de registros {global_count} sumatoria precio {global_sum_price} precio máximo {global_max} precio mínimo {global_min} media {global_sum_price / global_count}\n\n\n\n')
+    else:
+        #si el archivo ya fue cargado previamente en BD, entonces dejo el log de que no se cargo
+        file.write("No cargo Archivo ->" + file_name + " se validó y existe en base de datos\n")
 
 file.write(f'Total archivos cargados en BD={str(len(os.listdir(file_src)))} \n nombre de los archivos= {os.listdir(file_src)}\n\n\n')
 
 
 #con fines de comparación, se hacen dos consultas a la base de datos final con el fin de dejar evidencia en el LOG
 #como en la tabla final se puede identificar el archivo fuente, se hacen dos consultas, uno teniendo en cuenta el archivo validation.csv y otra sin tenerlo en cuente
+
+#query sin tener en cuenta el archivo validation.csv
 conn = sqlite3.connect('output.db')
 c = conn.cursor()
-#query sin tener en cuenta el archivo validation.csv
 c.execute("select   count(1) ,sum(price), max(price), min(price),sum(price)/count(1) from final_table where price != '' and source_file_name != 'validation.csv'")
 rows = c.fetchall()
 for row in rows:
