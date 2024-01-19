@@ -19,7 +19,7 @@ def insert_data(sql,*args):
 
 #abrimos un archivo de escritura para llevar el log
 #el log final puede ser consultado en GITHUB https://github.com/camilocero01/micro_batches/blob/main/transform/log.txt
-file = open("log.txt", "w")
+file = open("log.txt", "w",encoding="utf-8")
 
 #si no existe la tabla, la crea
 #   timestamp fecha del registro
